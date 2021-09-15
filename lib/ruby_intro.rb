@@ -5,10 +5,13 @@
 def sum arr
   total = 0
   arr.each{ |idx| total+=idx}
+  return total;
 end
 
 def max_2_sum arr
-  # YOUR CODE HERE
+  total = 0
+  arr.max(2).each{ |idx| total+=idx}
+  return total;
 end
 
 def sum_to_n? arr, n
