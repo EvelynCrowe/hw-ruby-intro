@@ -4,9 +4,10 @@
 
 def sum arr
   total = 0
-  if !arr.empty()
-    arr.each{ |idx| total+=idx}
-  return total
+  if arr.empty()
+    return total
+  else
+    return arr.each{ |idx| total+=idx}
 end
 
 def max_2_sum arr
