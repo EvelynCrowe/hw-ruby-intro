@@ -3,7 +3,10 @@
 # Part 1
 
 def sum arr
-  # YOUR CODE HERE
+  total = 0
+  if !arr.empty()
+    arr.each{ |idx| total+=idx}
+  return total
 end
 
 def max_2_sum arr
@@ -15,7 +18,7 @@ def sum_to_n? arr, n
 end
 
 # Part 2
-
+=begin
 def hello(name)
   # YOUR CODE HERE
 end
@@ -27,9 +30,9 @@ end
 def binary_multiple_of_4? s
   # YOUR CODE HERE
 end
-
+=end
 # Part 3
 
-class BookInStock
+#class BookInStock
 # YOUR CODE HERE
-end
+#end
