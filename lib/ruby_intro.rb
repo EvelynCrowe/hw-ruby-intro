@@ -31,19 +31,21 @@ def sum_to_n? arr, n
 end
 
 # Part 2
-=begin
 def hello(name)
-  # YOUR CODE HERE
+  "Hello, " + name
 end
 
 def starts_with_consonant? s
-  # YOUR CODE HERE
+  if(s.length > 0)
+    if(s=~/\A[a-zA-Z]/)
+      return !(s=~/\A[AEIOUaeiou]/)
+    end
+  end
 end
 
 def binary_multiple_of_4? s
   # YOUR CODE HERE
 end
-=end
 # Part 3
 
 #class BookInStock
